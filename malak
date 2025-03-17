@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيد ميلاد سعيد</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #ffebcd;
+            padding: 50px;
+        }
+        h1 {
+            color: red;
+        }
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>عيد ميلاد سعيد يا حبيبتي! 🎉</h1>
+    <p>باقي <span id="countdown"></span> يوم على عيد ميلادك! 🎂</p>
+    <script>
+        let daysLeft = 29;
+        document.getElementById("countdown").innerText = daysLeft;
+    </script>
+</body>
+</html>
